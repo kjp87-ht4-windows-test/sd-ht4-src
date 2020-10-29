@@ -18,6 +18,8 @@ todo
 
 - need to add lux sensor code 
 
+- need to add I2C debug screen code
+
 - need to add peristaltic pump code and links
 
 how to do stuff using git
