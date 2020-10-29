@@ -1,4 +1,4 @@
-Senior Design Hydroponic Team 4 Source Code Repository
+Senior Design Hydroponics Team 4 Source Code Repository
 ================================================================================
 See `src-examples` for a collection of source code we will use. 
 
