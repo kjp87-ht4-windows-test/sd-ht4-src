@@ -118,4 +118,27 @@ Merging can be really complicated in git. However, if no two people edit the
 same files then its pretty straightforward:
 
 	git checkout master
-	git merge
+	git merge "Name of Branch"
+
+If this fails, contact me and we'll work through it. 
+
+### 10. Push your changes to your github repository
+so far all of your changes have been on your local machine. When you are 
+confident in your changes, upload them to github
+
+	git push origin master
+
+To officially incorporate your changes into the original repository, you will 
+need to submit a pull request. 
+
+### 11. Submit a pull request 
+go to `Pull requests` on your github repo and click `New pull request`
+
+![Submit a pull request](.images/pull-requests.png)
+
+you should see a page that looks like this (although the changes won't be empty)
+
+![New pull request](.images/new-pull-request.png)
+
+### 12. Wait for me to approve and merge the request
+You're pretty much done at this point. 
