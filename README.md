@@ -34,7 +34,8 @@ people can use them (called a push).
 
 how to contribute to this repository
 --------------------------------------------------------------------------------
-The following shows how to upload a commit on windows using git-bash:
+The following shows how to upload a commit on windows using git-bash. There are
+many different gui programs for git. The process will be mostly the same. 
 
 ### 0. Have a github account
 I'm assuming you have one already. 
@@ -76,9 +77,9 @@ is:
 
 1. Make a branch
 
-2. Make changes in that branch
+2. Make changes in that branch (then add and commit them)
 
-3. Merge your changes into master
+3. Merge your commits into master
 
 4. Delete the branch (optional)
 
@@ -86,7 +87,7 @@ to make a branch, do
 
 	git checkout -b "Name of Branch"
 
-### 6. Make changes
+### 6. Make changes in the branch
 Once the repo is on your local machine, you can make any changes you want. All 
 your changes can be reversed later, so do whatever you want. You are not limited
 to git-bash when making changes - feel free to use an IDE or something. 
@@ -108,5 +109,13 @@ To make a commit:
 
 When you make a commit, you need to write a small message about what you did. 
 git-bash will do this in an editor called 'vim'. Vim is an old editor that is
-hard to learn. You can skip using it by using `-m`. If you use vim on accident,
-you can exit by typing `<escape>`, then `:q!`. 
+hard to learn. You can skip using it by using `-m`, as shown above. If you use 
+vim on accident, you can exit by typing `<escape>`, then `:q!`. You might not
+have to worry about this if you are working in a git gui. 
+
+### 9. Merge your commits into master
+Merging can be really complicated in git. However, if no two people edit the
+same files then its pretty straightforward:
+
+	git checkout master
+	git merge
