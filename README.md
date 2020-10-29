@@ -20,4 +20,9 @@ todo
 
 - need to add peristaltic pump code and links
 
-- need to add git standard operating proceedure instructions 
+how to do stuff using git
+================================================================================
+
+how to contribute to this repository
+--------------------------------------------------------------------------------
+
