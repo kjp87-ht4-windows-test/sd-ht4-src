@@ -2,7 +2,7 @@ Senior Design Hydroponic Team 4 Source Code Repository
 ================================================================================
 See `src-examples` for a collection of source code we will use. 
 
-A couple links are also proveded under the `links/` directory that have 
+A couple links are also provided under the `links/` directory that have 
 instructions on how to setup some of these sensors. 
 
 - for a practical dfrobot EC sensor setup, see `links/ec-sensors/df-robot-ec-sensor-v2-wiki`
